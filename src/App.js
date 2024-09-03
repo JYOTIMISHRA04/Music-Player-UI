@@ -28,13 +28,13 @@ function App() {
     setCurrentSong(songs[(currentIndex - 1 + songs.length) % songs.length]);
   };
 
-  const gradient = {
-    backgroundImage: `linear-gradient(to left, ${currentSong?.accent}2c 0%, 
-  ${currentSong?.accent}4e 50%, ${currentSong?.accent} 100%)`
-  }
+  const gradient = currentSong?.accent ? {
+    backgroundImage: `linear-gradient(to left, ${currentSong?.accent || "#0e0e0e"}2c 0%, 
+  ${currentSong?.accent || "#0e0e0e"}4e 50%, ${currentSong?.accent || "#0e0e0e"} 100%)`
+  } : {}
 
   return (
-    <Box className="container-box" style={gradient}>
+    <Box className="container-box default" style={gradient}>
       <Grid container columns={16} style={{ height: '100%' }} >
         <Grid item size={{ xs: 2 }} style={{ height: "100%" }}>
           <Box p={2} className="sidebarContainer">

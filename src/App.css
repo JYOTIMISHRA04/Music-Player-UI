@@ -3,11 +3,11 @@
 }
 
 .colorWhite {
-  color: "white";
+  color: white;
 }
 
 .container-box {
-  position: "absolute";
+  position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
@@ -17,11 +17,20 @@
   overflow: hidden;
 }
 
+.default {
+  background-image: linear-gradient(
+    to left,
+    rgb(25 29 117 / 59%) 0%,
+    rgb(2 9 105 / 31%) 50%,
+    rgb(12 11 22) 100%
+  );
+}
+
 .nowPlaying-container {
-  display: "flex";
-  justify-content: "center";
-  width: "100%";
-  height: "100%";
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .hoverList:hover {
