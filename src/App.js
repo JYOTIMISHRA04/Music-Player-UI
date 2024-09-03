@@ -36,14 +36,14 @@ function App() {
   return (
     <Box className="container-box default" style={gradient}>
       <Grid container columns={16} style={{ height: '100%' }} >
-        <Grid item size={{ xs: 2 }} style={{ height: "100%" }}>
-          <Box p={2} className="sidebarContainer">
+        <Grid size={{ xs: 2 }} style={{ height: "100%" }}>
+          <Box className="sidebarContainer">
             <Logo />
             <Profile />
           </Box>
 
         </Grid>
-        <Grid item size={{ xs: 5 }}>
+        <Grid size={{ xs: 5 }}>
           <Box p={4}>
             <SideBar songs={data.data}
               onSongSelect={handleSongSelect}
