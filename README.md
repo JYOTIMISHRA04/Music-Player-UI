@@ -1,5 +1,9 @@
 # Spotify Clone App
 
+
+![Music-player-ui](https://github.com/user-attachments/assets/b3da9e0b-874d-452c-bfc0-ad6ff8666dbf)
+
+
 ## Demo : https://music-player-ui-two.vercel.app/
 
 This is a Spotify clone built using React, allowing users to browse and play tracks. It also includes the ability to favorite tracks. The application features a modern design, and mimics the look and feel of Spotify.
@@ -85,3 +89,7 @@ The app is deployed on Vercel. To deploy your own version, follow these steps:
    ```bash
    vercel
    ```
+
+## GIF - 
+![Music-player-ui](https://github.com/user-attachments/assets/d1413ec6-2c46-4e42-a66f-031c044db1e2)
+
